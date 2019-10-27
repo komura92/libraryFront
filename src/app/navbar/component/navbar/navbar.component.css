@@ -1,0 +1,28 @@
+.navbar {
+    list-style: none;
+    position:fixed;
+    left: 50%;
+}
+
+.navbarContent {
+    position: relative;
+    left: -50%;
+    background: chartreuse;
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 25px;
+    border: none;
+    background-color: #3ec19d;
+    padding: 12px 26px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {background: #eee;}
+
+.menuItem {
+    margin: 10px;
+    background: #c3a03d;
+}

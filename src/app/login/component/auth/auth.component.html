@@ -1,0 +1,13 @@
+<div class="window item userWindow">  
+  <br><br><br> 
+    <h1> Login: </h1> 
+    <input type="text" id="username">
+    <br>
+    <h1> Password: </h1> 
+    <input (keydown)="onKeydown($event)" type="password" id="passwd">
+    <br> <br> 
+    <button class="btn info" routerLink='/' (click)=login()>Login</button>
+    <br>  
+    <h1> or </h1>
+    <button class="btn info" routerLink='/register'>Register</button>
+</div>

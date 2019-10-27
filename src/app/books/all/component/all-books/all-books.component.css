@@ -1,0 +1,31 @@
+.listItem {
+    border-radius: 25px;
+    height: 200px;
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    float: left;
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    border-radius: 20%;
+}
+
+h1 {
+    padding-top: 40px;
+    color: #e7dfdd;
+}
+
+.btn {
+    border-radius: 25px;
+    border: none;
+    background-color: #3ec19d;
+    padding: 12px 26px;
+    font-size: 16px;
+    cursor: pointer;
+    right: 0%;
+}
+
+.btn:hover {background: #eee;}

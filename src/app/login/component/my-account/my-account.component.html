@@ -1,0 +1,18 @@
+<div class="window item userWindow">  
+  <br><br><br> 
+    <h1> Your login: <br></h1> 
+    <h2>{{username}}</h2>
+    <br>
+    <h1> Your role here: <br></h1> 
+    <h2>{{role}}</h2>
+    <br>
+    <h3> Change your password here:</h3>
+    <h4>Actual password:</h4>
+    <input type="password" id="oldpasswd">
+    <h4>New password:</h4>
+    <input (keydown)="onKeydown($event)" type="password" id="newpasswd">
+    <br> <br> 
+    <button class="btn info" routerLink='/' (click)=changePassword()>Change!</button>
+    <br><br>
+    <button class="btn del" routerLink='/delete'>Delete my Account</button>
+</div>

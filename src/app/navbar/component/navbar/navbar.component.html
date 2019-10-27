@@ -1,0 +1,12 @@
+<div class="navbar">
+        <div class="navbarContent">
+                <button class="btn info menuItem" routerLink='/'>Books</button>
+                <button *ngIf="logged()" class="btn info menuItem" routerLink='/myBooks'>My books</button>
+                <button *ngIf="logged()" class="btn info menuItem" routerLink='/myAccount'>My account</button>
+                <button *ngIf="logged()" class="btn info menuItem" routerLink='/' (click)=logout()>Logout</button>
+                <button *ngIf="!logged()" class="btn info menuItem" routerLink='/login'>Login</button>
+        </div>
+</div>
+<div style="height: 50px;">
+
+</div>

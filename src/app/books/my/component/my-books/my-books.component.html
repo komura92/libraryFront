@@ -1,0 +1,10 @@
+<div *ngFor="let book of books$" class="listItem item" (click)=select(book.id)>
+    <img src="{{book.imgLink}}">
+      <h1>
+        {{book.title}}
+      </h1>
+      <h2>
+        {{book.author}}
+      </h2>
+      <button class="btn info" (click)=returnBook(book.id)>Return</button>
+  </div>

@@ -1,0 +1,33 @@
+.window {
+    border-radius: 25px;
+    height: 650px;
+    width: 400px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #e7dfdd;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #6d4f35;
+}
+
+h3 {
+    font-size: 20px;
+    color: #6b3e16;
+}
+
+h4 {
+    color: #e7dfdd;
+    font-size: 15px;
+    margin: 5px;
+}
